@@ -23,6 +23,7 @@ int main(){
     fflush(stdin);  // flushing out previous input, otherwise, this will be skipped
     printf("\nEnter name for e2: ");
     gets(e2.name);
+    puts(e2.name);
     printf("\nEnter salary for e2: ");
     scanf("%f", &e2.salary);
     printf("\nEnter employee code for e2: ");
@@ -33,6 +34,7 @@ int main(){
     fflush(stdin); // flushing out previous input, otherwise, this will be skipped
     printf("\nEnter name for e3: ");
     gets(e3.name);
+    puts(e3.name);
     printf("\nEnter salary for e3: ");
     scanf("%f", &e3.salary);
     printf("\nEnter employee code for e3: ");
